@@ -28,7 +28,7 @@ select_files_button = customtkinter.CTkButton(app, text="Select Files", command=
 select_files_button.pack(padx=10, pady=10)
 
 # Lista com todos os diretorios de arquivos descobertos no csv_files
-exibir_csv_files_button = customtkinter.CTkButton(app, text="Exibir CSV Files", command=lambda: show_csv_files(csv_files))
+exibir_csv_files_button = customtkinter.CTkButton(app, text="Show CSV Files", command=lambda: show_csv_files(csv_files))
 exibir_csv_files_button.pack(padx=10, pady=10)
 
 # Botão para Converter e Concatenar CSVs
