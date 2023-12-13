@@ -18,14 +18,16 @@ Execute o arquivo main.py.
 Uma janela será aberta com três botões: "Select Files", "Exibir CSV Files" e "Merge Files".
 1. Select Files
 Clique no botão "Select Files" para abrir uma janela de seleção de arquivos. Selecione os arquivos CSV que deseja concatenar. A lista de arquivos selecionados será exibida em uma caixa de mensagem.
+![Select Files](gifs/selectfiles.gif)
 
 2. Exibir CSV Files
 Clique no botão "Exibir CSV Files" para visualizar todos os caminhos dos arquivos CSV que foram selecionados.
+![Show Files](gifs/showfiles.gif)
 
 3. Merge Files
 Clique no botão "Merge Files" para iniciar o processo de concatenação dos arquivos CSV. O resultado será salvo como "MergedCSV.csv" no mesmo diretório do script.
-
 Lembre-se de que os arquivos CSV serão convertidos para UTF-8 antes da concatenação.
+![Merge Files](gifs/mergefiles.gif)
 
 ## Observações
 Certifique-se de ter todos os arquivos CSV a serem concatenados na mesma pasta.
